@@ -19,3 +19,12 @@ Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
 ]);
+
+
+ Route::resource('noticias', 'NoticiaController');
+// Route::post('noticias', 'Auth\AuthController@postLogin');
+route::get('noticias/{id}', 'NoticiasController@show')->where(['id' => '[0-9]+']);
+Route::get('noticias/{id}/delete', [
+    'as' => 'noticias.delete',
+    'uses' => 'NoticiaController@destroy',
+]);
