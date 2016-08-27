@@ -1,15 +1,14 @@
-
-/*header*/
 body {
 				margin: 0;
 				padding: 0;
 				width: 100%;
 				height: 100%;
 				color: #B0BEC5;
-				display: table;
+				
 				
 				font-family: 'Lato';
 			}
+
 body .nav{
 	font-weight: 600;
 }
@@ -20,9 +19,7 @@ body .nav{
 
 }
 
-
-/*barra de navegacion derecha*/
- nav .navbar-header{
+nav .navbar-header{
 	background: #fff;
   width: 100%;
   position: fixed;
@@ -38,6 +35,7 @@ nav .navbar-collapse{
 .section-nav{
 	position: fixed;
 }
+/*barra de navegacion derecha*/
 .section-nav ul li a{
 	color: black;
 	padding: 2px 2px;
@@ -54,20 +52,19 @@ nav .navbar-collapse{
 .section-nav ul li .elo{
 		background: #ffff00;
 	}
-
 @media (min-width: 768px) {
   .navbar-nav {
     float: right;
     margin: 0;
   }
 }
-nav ul li a img{
+ul li a img{
 	float: right;
 }
-nav ul li:hover{
+ul li:hover{
 	background: #ffff00;
 }
-nav ul li{
+ul li{
 	border-left: 1.988px solid #9387c6;
 }
 nav ul li a {
@@ -212,7 +209,7 @@ nav ul li a {
 	padding: 10px 0 ;
 }
 .icons span{
-	width:174px;
+	width:146px;
 	height:123px;
 	display:inline-block;
 	margin:50px;
@@ -469,7 +466,7 @@ padding: 35px;
 
 /*seccion footer*/
 .footer{
-	background: #24221c;
+background: #24221c;
 	width: 100%;
 	height: auto;
 	text-align: center;
@@ -515,6 +512,9 @@ canvas{
 	margin: 47px;
 	background: transparent;
 }
+
+
+
 
 
 
@@ -571,7 +571,6 @@ canvas{
 @media only screen and (max-width : 768px) {
 		.imagenes6 .container-imagen .im2{
 			display: none;
-			width: 100%;
 		}
 
 	}
@@ -582,7 +581,6 @@ canvas{
 		margin-top: 16px;
 		vertical-align: middle;
 	}
-
 	.logo img{
 		width: 80%;
 		}
@@ -613,7 +611,17 @@ canvas{
   	margin-right: 0;
   	margin-bottom: 0px;
   }
-  nav .navbar-header{
+  
+ /* .button:hover .values{
+  	background:transparent;
+  	color: black;
+  	display: block;
+	opacity: .8;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+  }*/
+
+nav .navbar-header{
 	background: #fff;
   width: 100%;
   position: fixed;
@@ -627,16 +635,6 @@ nav .navbar-nav{
   	width: 75%;
  	margin:0 auto;
 }
-
- /* .button:hover .values{
-  	background:transparent;
-  	color: black;
-  	display: block;
-	opacity: .8;
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-  }*/
-
 	.section-nav a{
 		
 		color: #2C3E50;
@@ -701,8 +699,6 @@ opacity: 0.9;
 color: #fff;
 text-align: center;
 }
-
-
 }
 @media screen and (max-width: 667px) {
 	.logo a{

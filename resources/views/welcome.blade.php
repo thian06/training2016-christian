@@ -3,13 +3,15 @@
 	@include('header')
 	<!-- menu var -->
 
+			<!-- 	</div>
+		</div>
+	</div> -->
 	<!-- imagen de fondo  -->
 	<div class="imagen">
 	</div>
 	<!-- div triangulo amarillo -->
 	<div class="content">
-    	<h2>Create Your Own Genuine Web Masterpiece</h2>
-    	<p>es simplemente el texto de relleno de las imprentas y archivos de texto.</p>
+    	<h3>Full width responsive triangle divider</h3>
 	</div
   
 	<div class="wrapper">
@@ -24,26 +26,26 @@
 	 		<div class="col-md-4 icons">
 					<span class="foco"></span>
 					<h3>title goes here</h3>
-					<p>es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500,   </p>
+					<p>Normally, both your asses would be dead as fucking fried chicken,    </p>
 
 				</div>
 				<div class="col-md-4 icons">
 					<span class="buscar"></span>
 					<h3>title goes here</h3>
-					<p>es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500,    </p>
+					<p>Normally, both your asses would be dead as fucking fried chicken,    </p>
 
 				</div>
 				<div class="col-md-4 icons">
 					<span class="herramientas"></span>
 					<h3>title goes here</h3>
-					<p>es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500,    </p>
+					<p>Normally, both your asses would be dead as fucking fried chicken,    </p>
 
 				</div>
 	 	</div>
 	 </div>
 	 
 	 <!-- seccion some our work -->
-	 <div class="section-about text-center"  id="pages">
+	 <div class="section-about text-center">
 
 				 	<!-- div triangulo blanco-->
 				<div class="content1">
@@ -60,47 +62,45 @@
 				<h2>Some of Our Work</h2>
 				
 				<p> I don't wanna kill you,<span>I wanna help you.</span>  But I can't give you this case, . </p>
-				<div class="container">
-				  <div class="row">
-				    <div class="col-sm-12">
-				        
-				    <div class="clearfix ">
-				        <div id="thumbcarousel" class="carousel slide" data-interval="false">
-				            <div class="carousel-inner ">
-				                <div class="item active">
-				                    <div data-target="#carousel" data-slide-to="0" class="thumb col-md-4"><img src="img/img1.jpg"></div>
-				                    <div data-target="#carousel" data-slide-to="1" class="thumb col-md-4"><img src="img/img2.jpg"></div>
-				                    <div data-target="#carousel" data-slide-to="2" class="thumb col-md-4"><img src="img/img3.jpg"></div>
-				                    <div data-target="#carousel" data-slide-to="1" class="thumb col-md-4"><img src="img/img1.jpg"></div>
-				                    
-				                </div><!-- /item -->
-				                <div class="item">
-				                <div data-target="#carousel" data-slide-to="3" class="thumb col-md-4"><img src="img/img2.jpg"></div>
-				                    <div data-target="#carousel" data-slide-to="4" class="thumb col-md-4"><img src="img/img3.jpg"></div>
-				                    <div data-target="#carousel" data-slide-to="5" class="thumb col-md-4"><img src="img/img1.jpg"></div>
-				                    <div data-target="#carousel" data-slide-to="5" class="thumb col-md-4"><img src="img/img2.jpg"></div>
-				                </div><!-- /item -->
-				            </div><!-- /carousel-inner -->
-				            <a class="left carousel-control" href="#thumbcarousel" role="button" data-slide="prev">
-				                <span class="glyphicon glyphicon-chevron-left"></span>
-				            </a>
-				            <a class="right carousel-control" href="#thumbcarousel" role="button" data-slide="next">
-				                <span class="glyphicon glyphicon-chevron-right"></span>
-				            </a>
-				        </div> <!-- /thumbcarousel -->
-				    </div><!-- /clearfix -->
-				    </div> <!-- /col-sm-6 -->
-				    
-				  </div> <!-- /row -->
-				</div> <!-- /container --
+				   <div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+        
+    <div class="clearfix">
+        <div id="thumbcarousel" class="carousel slide" data-interval="false">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div data-target="#carousel" data-slide-to="0" class="thumb"><img src="http://placehold.it/100/e8117f/fff&amp;text=Product+Main"></div>
+                    <div data-target="#carousel" data-slide-to="1" class="thumb"><img src="http://placehold.it/100/00ffff/000&amp;text=Product+Image+2"></div>
+                    <div data-target="#carousel" data-slide-to="2" class="thumb"><img src="http://placehold.it/100/ff00ff/fff&amp;text=Product+Image+3"></div>
+                    
+                </div><!-- /item -->
+                <div class="item">
+                <div data-target="#carousel" data-slide-to="3" class="thumb"><img src="http://placehold.it/100/ffff00/000&amp;text=Product+Image+4"></div>
+                    <div data-target="#carousel" data-slide-to="4" class="thumb"><img src="http://placehold.it/100/612b65/fff&amp;text=Product+Image+5"></div>
+                    <div data-target="#carousel" data-slide-to="5" class="thumb"><img src="http://placehold.it/100/00ffcc/000&amp;text=Product+Image+6"></div>
+                    
+                </div><!-- /item -->
+            </div><!-- /carousel-inner -->
+            <a class="left carousel-control" href="#thumbcarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#thumbcarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div> <!-- /thumbcarousel -->
+    </div><!-- /clearfix -->
+    </div> <!-- /col-sm-6 -->
+    
+  </div> <!-- /row -->
+</div> <!-- /container --
 			</div>
 		</div>
 
 		</div>
 		<!-- div triangulo 3 plomo-->
-	<div class="content2 " id="my-work">
-    	<h2>Out Last History</h2>
-				<p> I don't wanna kill you,<span>I wanna help you.</span>  But I can't give you this case, . </p>
+	<div class="content2">
+    	<h3>Full width responsive triangle divider</h3>
 	</div
   
 	<div class="wrapper2">
@@ -188,12 +188,10 @@
 		</div>
 		
     	</div>
-
 	</div>
 	
 	<!-- importamos footer.php -->
 	@include('footer')
-
 <script>
 var pieData = [{value: 30,color:"#fff",highlight: "#fff",label: "Google Chrome"},
 			
