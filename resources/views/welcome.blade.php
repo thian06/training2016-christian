@@ -70,15 +70,17 @@
         <div id="thumbcarousel" class="carousel slide" data-interval="false">
             <div class="carousel-inner">
                 <div class="item active">
-                    <div data-target="#carousel" data-slide-to="0" class="thumb"><img src="http://placehold.it/100/e8117f/fff&amp;text=Product+Main"></div>
-                    <div data-target="#carousel" data-slide-to="1" class="thumb"><img src="http://placehold.it/100/00ffff/000&amp;text=Product+Image+2"></div>
-                    <div data-target="#carousel" data-slide-to="2" class="thumb"><img src="http://placehold.it/100/ff00ff/fff&amp;text=Product+Image+3"></div>
+                    <div data-target="#carousel" data-slide-to="0" class="thumb"><img src="img/img1.jpg"></div>
+                    <div data-target="#carousel" data-slide-to="1" class="thumb"><img src="img/img2.jpg"></div>
+                    <div data-target="#carousel" data-slide-to="2" class="thumb"><img src="img/img3.jpg"></div>
+                    <div data-target="#carousel" data-slide-to="2" class="thumb"><img src="img/img1.jpg"></div>
                     
                 </div><!-- /item -->
                 <div class="item">
-                <div data-target="#carousel" data-slide-to="3" class="thumb"><img src="http://placehold.it/100/ffff00/000&amp;text=Product+Image+4"></div>
-                    <div data-target="#carousel" data-slide-to="4" class="thumb"><img src="http://placehold.it/100/612b65/fff&amp;text=Product+Image+5"></div>
-                    <div data-target="#carousel" data-slide-to="5" class="thumb"><img src="http://placehold.it/100/00ffcc/000&amp;text=Product+Image+6"></div>
+                <div data-target="#carousel" data-slide-to="3" class="thumb"><img src="img/img1.jpg"></div>
+                    <div data-target="#carousel" data-slide-to="4" class="thumb"><img src="img/img3.jpg"></div>
+                    <div data-target="#carousel" data-slide-to="5" class="thumb"><img src="img/img2.jpg"></div>
+                    <div data-target="#carousel" data-slide-to="2" class="thumb"><img src="img/img1.jpg"></div>
                     
                 </div><!-- /item -->
             </div><!-- /carousel-inner -->
@@ -100,7 +102,7 @@
 		</div>
 		<!-- div triangulo 3 plomo-->
 	<div class="content2">
-    	<h3>Full width responsive triangle divider</h3>
+    	
 	</div
   
 	<div class="wrapper2">

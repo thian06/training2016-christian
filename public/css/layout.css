@@ -343,7 +343,7 @@ nav ul li a {
 	
 }
 .imagen-work .imagen-hover{
-	display:none;
+	display:block;
 }
 .imagen-work:hover .imagen-hover {
 	display: block;
@@ -364,7 +364,7 @@ left: 50%;
 transform: translate(-50% ,-50% );
 width: 80%;
 height: 65%;
-background: #02918C;
+background: #24221c;
 opacity: 0.9;
 color: #fff;
 text-align: center;
@@ -656,7 +656,7 @@ nav .navbar-nav{
     .container1 h2
     {
     	padding: 0px;
-    	color: #02918C;
+    	color: black;
 		font-weight: 900;
 		font-size: 2em;
 		margin: 0;
@@ -694,7 +694,7 @@ left: 50%;
 transform: translate(-50% ,-50% );
 width: 60%;
 height: 45%;
-background: #02918C;
+background: #24221c;
 opacity: 0.9;
 color: #fff;
 text-align: center;
@@ -797,7 +797,7 @@ text-align: center;
 		padding: 0.1px;
 	}
 	.imagenes6 .container-imagen .im2{
-			display: none;
+			display: block;
 		}
 			.imagen-work .imagen-hover{
 position: absolute;
@@ -1033,6 +1033,6 @@ color: #fff;
 text-align: center;
 }
 	.imagenes6 .container-imagen .im2{
-			display: none;
+			display: block;
 		}
 }

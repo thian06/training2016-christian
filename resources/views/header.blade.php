@@ -17,7 +17,7 @@
 </head>
 <body>
 
-	<nav role="navigation" class="navbar navbar-default fixed col-md-12">
+	<nav role="navigation" class="navbar navbar-default fixed ">
         <div class="navbar-header">
             <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
                 <span class="sr-only">Toggle navigation</span>
